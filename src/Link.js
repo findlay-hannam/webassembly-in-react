@@ -8,5 +8,11 @@ const A = styled.a`
 `;
 
 export default function Link() {
-  return <A href="#">Hover me</A>
+  return (
+    <div>
+      <A href="https://wasm.continuation-labs.com/d3demo/">DOOM 3</A>
+      <A href="https://calculator.platform.uno/">Windows calculator</A>
+      <A href="https://squoosh.app/">Squoosh</A>
+    </div>
+  );
 }
